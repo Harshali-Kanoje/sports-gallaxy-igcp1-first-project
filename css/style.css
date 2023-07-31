@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
+}
+.tagline marquee{
+    background-color: #F86F03;
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.home-img{
+    background-image: url(./../images/international-sports.avif);
+    /* width: 100vw; */
+     height: 45vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.home-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 500px;
+}
+
+.home-back h1{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.home-back p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.home-back h2{
+    font-size: 25px;
+    /* margin: 20px 0; */
+}
+
+.go-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #F86F03;
+}
