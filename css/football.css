@@ -17,9 +17,7 @@ body{
     height:100vh;
     border-radius:5px;
     width:600px;
-    /* border:1px solid black; */
-    /* background-color:white; */
-    padding:20px;
+    padding:15px;
 }
 .title-container{
     text-align:justify;
@@ -62,4 +60,50 @@ body{
     border-radius:8px;
     color:black;
     box-shadow: 0 1px 8px 1px black;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:red;
+    }
+    .title-header-1 {
+        margin-top: 20px;
+        font-size: 48px;
+        color: orange;
+    }
+    .title-header-3 {
+        line-height: 2;
+        font-size: 33px;
+    }
+
+    .title-header-2 {
+        line-height: 2;
+        font-weight: bold;
+        color: #1f1919;
+        font-size: 16px;
+    }
+    ..header-card-btn {
+        margin-top: 16px;
+        background-color: orange;
+        padding: 10px 5px 10px 5px;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 8px;
+        color: black;
+        box-shadow: 0 1px 8px 1px black;
+    }
+    .header-card-img {
+        Display: block;
+        height: 449px;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+    .header-card {
+        height:550px;
+        border-radius: 5px;
+        width: 558px;
+        background-color: white;
+        padding: 16px;
+    }
 }
