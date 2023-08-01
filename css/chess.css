@@ -1,3 +1,221 @@
-h1{
+*{
+    font-family: 'Playfair Display';
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#ffffff;
+}
+.main-contanier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sub-contanier{
+    position: relative;
+    margin: 20px 0px;
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+}
+.img{
+    height: 30rem;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    border-radius: 15px;
+    margin: 0 -15px;
+    /* filter: drop-shadow(0 0 8px rgb(7, 7, 235));*/
+} 
+.ex-top-mar{
+    position: absolute;
+    top: -5rem;
+}
+.font-size{
+    font-size: 80px;
+    color: orange;
+    padding: 15px 23px;
+}
+.font{
+    font-size: 40px;
+    padding: 15px 23px;
+    color: orange;
+}
+.para{
+    padding: 15px 23px;
+    font-size: 17px;
+    color: white;
+}
+.font-color{
+    color: black;
+}
+.header-card-btn{
+    margin-top:20px; 
+    margin-left: 1.5rem;  
+    background-color:orange;
+    padding:5px 9px 14px 9px;
+    border:none;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:8px;
+    color:black;
+    box-shadow: 0 1px 8px 1px black;
+}
+.player-info{
+    height: 350px;
+    width: 250px;
+    margin: 80px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.player{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+.font-key
+{
     text-align: center;
+    font-size: 60px;
+    margin: 35px 0;
+}
+.info{
+    font-size: 15px;
+    padding: -5 15px;
+}
+.player-name{
+    margin: 10px 60px;
+}
+.bg{
+    background: linear-gradient(rgb(0, 0, 0,0.9),rgb(0 ,0,0,0.8 ) ),url(./../images/bg1.jpeg);
+    opacity: 0.9;
+    background-size: cover;
+    opacity: 0.9;
+}
+.chess{
+    margin-top: -175px;
+    margin-left: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .font-size{
+       font-size: 30px;
+    }
+    .font{
+        font-size: 20px;
+    }
+    .para{
+
+    }
+}
+@media screen and(min-width:601px) and(max-width:768px) {
+    
+}
+@media screen and(min-width:769px) and(max-width:992px) {
+    
+}
+@media screen and(min-width:993px) and(max-width:1200px) {
+    
 }
