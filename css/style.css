@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -16,13 +17,13 @@ a{
 
 .home-img{
     background-image: url(./../images/international-sports.avif);
-    /* width: 100vw; */
-     height: 45vw;
+    opacity: 0.9;
+    height: 45vw;
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     display: flex;
-    /* flex-direction: column; */
+    align-items: center;
     justify-content: center;
 }
 
@@ -31,27 +32,236 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    width: 500px;
+    width: 1200px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 40px;
+    border-radius: 0 200px 0 200px;
+    /* border: 3px solid white; */
+    box-shadow: 0 0 5px 5px #F86F03;
 }
 
 .home-back h1{
-    font-size: 60px;
+    font-size: 80px;
     margin: 20px 0;
 }
 
 .home-back p{
     font-size: 20px;
-    margin: 20px 0;
+    margin: 10px 0;
+    text-align: center;
 }
 
 .home-back h2{
-    font-size: 25px;
+    font-size: 40px;
     /* margin: 20px 0; */
 }
 
+.home-back .s-span{
+    color: #F86F03;
+}
+
+.home-back .g-span{
+    color:#525ee1  ;
+}
+
 .go-btn{
-    padding: 10px 30px;
-    font-size: 20px;
+    padding: 10px 60px;
+    font-size: 25px;
     background-color: #F86F03;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: none;
+}
+
+.go-btn a{
+    color: wheat;
+    font-weight: bold;
+}
+
+/* category css */
+.category{
+    padding: 40px;
+    background-color:#dbdeff87 ;
+}
+
+.category h1{
+text-align: center;
+font-size: 60px;
+color: #F86F03;
+margin: 20px 0;
+}
+
+.category-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.category-card{
+    text-align: center;
+    background-color: white;
+    border: 2px solid #F86F03;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    margin: 20px 0;
+    box-shadow: 0 0 35px -10px rgb(115, 109, 109);
+}
+
+.category-card h2{
+    text-align: center;
+    font-size: 30px;
+    color: #F86F03;
+    /* margin: 15px 0; */
+}
+
+.category-card button{
+    background-color: #F86F03;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+}
+
+.category-card img{
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* media query */
+
+@media screen and (max-width:600px){
+    .home-back{
+        
+        width: 296px;
+        height: 138px;
+        padding: 40px;
+        border-radius: 0 10px 0 10px;
+    }
+
+    .home-back h1{
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .home-back p{
+        font-size: 9px;
+        margin: 5px 0;
+    }
+    .home-back h2{
+        font-size: 12px;
+        /* margin: 20px 0; */
+    }
+    
+    .go-btn{
+        padding: 5px 25px;
+        font-size: 10px;
+        margin: 10px 0;
+    }
+    
+    .tagline marquee{
+        font-size: 15px;
+    }
+
+    .category h1{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+
+    .category-card h2{
+        font-size: 20px;
+        color: #F86F03;
+        margin:  0;
+    }
+
+    .category-card p{
+        font-size: 13px;
+    }
+    
+    .category-card button{
+        
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:992px){
+    .home-back{
+        
+        width: 539px;
+        height: 233px;
+        border-radius: 0 100px 0 100px;
+    }
+
+    .home-back h1{
+        font-size: 34px;
+        margin: 10px;
+    }
+    
+    .home-back p{
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .home-back h2{
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .go-btn{
+        padding: 7px 40px;
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    
+    .tagline marquee{
+        font-size: 22px;
+    }
+
+    .category h1{
+        font-size: 40px;
+        margin-bottom: 15px 0;
+    }
+}
+    @media screen and (min-width:993px) and (max-width:1250px){
+        .home-back{
+            
+            width: 947px;
+            height: 360px;
+            border-radius: 0 100px 0 100px;
+        }
+    
+        .home-back h1{
+            font-size: 60px;
+            margin: 15px;
+        }
+        
+        .home-back p{
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .home-back h2{
+            font-size: 30px;
+            margin: 0;
+        }
+        
+        .go-btn{
+            padding: 7px 40px;
+            font-size: 20px;
+            margin: 25px 0;
+        }
+        
+        /* .tagline marquee{
+            font-size: 22px;
+        } */
+    
+        .category h1{
+            font-size: 50px;
+            margin-bottom: 10px 0;
+        }
+
 }
