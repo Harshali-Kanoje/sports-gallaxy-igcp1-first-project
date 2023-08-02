@@ -285,6 +285,7 @@ a {
     margin: 20px 0;
     color: #F86F03;
     display: block;
+    font-weight: bold;
 }
 
 .footer-content h4 {
@@ -395,6 +396,9 @@ a {
         margin: 20px;
     }
 
+    .collabotion-content{
+        margin-bottom: 20px;
+    }
     .collabotion-content h2 {
         font-size: 21px;
         margin: 6px;
@@ -443,9 +447,40 @@ a {
         margin: 40px auto;
 
     }
+
+    .news-img img {
+        width: 98%;
+    }
+    
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 10px;
+    }
+
+    .footer-para {
+        width: 345px;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:992px) {
+
+    .home-img {
+        flex-direction: column;
+         padding: 20px;
+        height: 120vw;
+        background-size: 100% 120vw; 
+    }
+
+    .h-images {
+        margin-left: 0;
+    }
+
+    .img-holder img {
+        height: 180px;
+        margin: auto;
+        border-radius: 0 30px 0 30px;
+    }
     .home-back {
 
         width: 539px;
@@ -494,13 +529,31 @@ a {
         margin: 6px;
     }
 
+    .latest-news {
+        padding: 0 30px;
+    }
     .latest-news h1 {
         font-size: 49px;
         margin: 10px;
     }
+
+    .news-content {
+        flex-direction: column;
+    }
+
+    .news-para{
+        margin-bottom: 30px;
+    }
+    .news-img img {
+        width: 98%;
+    }
 }
 
 @media screen and (min-width:993px) and (max-width:1250px) {
+    .home-img {
+         padding: 25px; 
+    }
+
     .home-back {
 
         width: 947px;
@@ -509,7 +562,7 @@ a {
     }
 
     .home-back h1 {
-        font-size: 60px;
+        font-size: 54px;
         margin: 15px;
     }
 
@@ -538,4 +591,24 @@ a {
         margin-bottom: 10px 0;
     }
 
+    .img-holder img {
+        height: 150px;
+    }
+
+    .collaboration-section {
+        padding: 20px 40px;
+    }
+
+    .news-img img {
+        width: 400px;
+    }
+
+    .latest-news {
+        padding: 0 40px;
+    }
+
+    .collabotaion-img img {
+        width: 400px;
+       
+    }
 }
