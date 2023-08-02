@@ -92,7 +92,7 @@ html {
 }
 .sportsmen-card{
 height: 389px;
-    width: 286px;
+width: 286px;
 border:2px solid orange;
 padding:5px;
 background-color:white;
@@ -129,6 +129,27 @@ padding:10px;
     background-color:orange;
     border:none;
     font-weight:bold;
+}
+
+.rules-sec-1{
+    padding:20px;
+}
+
+.rules-container{
+    font-weight:bold;
+    padding:20px;
+}
+ol li{
+    padding:8px;
+}
+.img-rules{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.football-rules-container{
+    margin-top:140px;
+    
 }
 
 @media screen and (max-width:600px){
