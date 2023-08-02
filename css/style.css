@@ -40,7 +40,7 @@ a {
 .home-back p {
     font-size: 20px;
     margin: 10px 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .home-back h2 {
@@ -288,21 +288,27 @@ height: 239px;
 /* media query */
 
 @media screen and (max-width:600px) {
-    .home-back {
+    .home-img {
+flex-direction: column;
+padding: 10px;
+    }
+
+    /* .home-back {
 
         width: 296px;
         height: 138px;
         padding: 40px;
         border-radius: 0 10px 0 10px;
-    }
+    }*/
 
     .home-back h1 {
-        font-size: 20px;
+        font-size: 30px;
         margin: 0;
-    }
+
+    } 
 
     .home-back p {
-        font-size: 9px;
+        font-size: 13px;
         margin: 5px 0;
     }
 
@@ -317,8 +323,9 @@ height: 239px;
         margin: 10px 0;
     }
 
-    .tagline marquee {
-        font-size: 15px;
+    .tagline  {
+        font-size: 18px;
+        padding: 10px;
     }
 
     .category h1 {
