@@ -8,3 +8,14 @@
 ### 4.Nikita Kadiwike : Tennis Page
 ### 5.Sejal Kakade     : Cricket Page
 ### 6.Nitish Kumar    : Chess,About us Pages
+
+<!--  -->
+
+                                <!-- Football is a sport that can bring out a wide range of emotions in players and fans
+                                alike. Joy,
+                                excitement, disappointment, frustration, and pride are all common emotions that can be
+                                experienced during a football game. -->
+
+                                <!-- <img src="./images/soccer(football).avif" alt=""> -->
+
+                                <!-- <img src="./images/tennis-balls.avif" alt=""> -->
