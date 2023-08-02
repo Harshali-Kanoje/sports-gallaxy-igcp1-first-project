@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.card{
+    height: 100vh;
+    width: 650px;
+    /* background-color: antiquewhite; */
+}
+.header-container{
+   
+    background-color: rgb(136, 171, 207);
+}
+.main-header-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tennis{
+    color: orangered;
+    text-align: center;
+    padding: 20px;
+    font-size: 70px;
+}
+.tennis-player{
+    height: 90vh;
+    /* width: 600px; */
+}
+.tennis-sports{
+margin-left: 30px;
+color: green;
+}
+.slogan{
+     font-family: 'Courgette', cursive;
+     font-size: 45px;
+     text-align: center;
+     color: rgb(8, 8, 86);
+}
+.tennis-info{
+    font-family: 'PT Sans', sans-serif;
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.sports{
+    color: black;
+    font-size: 14px;
+}
+.importance-container{
+   
+  padding: 50px;
+    background-color: blue;
+}
+.importance{
+    height: 200px;
+  
+   text-align: justify;
+}
+.imp{
+    color: orangered;
+}
+.img-gif{
+    height: 200px;
+}
+ul li{
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+

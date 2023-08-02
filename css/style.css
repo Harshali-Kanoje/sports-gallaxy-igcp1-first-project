@@ -119,13 +119,14 @@ a {
 
 .category-card {
     text-align: center;
-    background-color: white;
+    background-color: transparent;
     border: 2px solid #F86F03;
     border-radius: 5px;
+    color: white;
     padding: 20px;
     width: 400px;
     margin: 20px 0;
-    box-shadow: 0 0 35px -10px rgb(115, 109, 109);
+    /* box-shadow: 0 0 35px -10px rgb(115, 109, 109); */
 }
 
 .category-card h2 {
@@ -136,7 +137,7 @@ a {
 }
 
 .category-card button {
-    background-color: #F86F03;
+    background:linear-gradient(140deg,#f4700b,rgb(7, 7, 241));
     color: white;
     padding: 10px 30px;
     border-radius: 30px;
@@ -226,10 +227,12 @@ a {
 
 .news-para a {
     font-size: 20px;
-    background-color: transparent;
+    /* background-color: transparent; */
     padding: 10px 30px;
-    border: 2px solid #F86F03;
-    color: #F86F03;
+    /* border: 2px solid #F86F03; */
+    color: white;
+    background:linear-gradient(140deg,#f4700b,rgb(7, 7, 241));
+    width: 400%;
     margin: 20px 0;
     border-radius: 30px;
 }
