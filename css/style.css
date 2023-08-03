@@ -92,7 +92,7 @@ a {
     height: 200px;
     border-radius: 5px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    border-radius: 0 100px 0 100px;
+    /* border-radius: 0 10px 0 10px; */
 }
 
 /* category css */
@@ -317,7 +317,7 @@ a {
     .img-holder img {
         height: 80px;
         margin: auto;
-        border-radius: 0 30px 0 30px;
+        /* border-radius: 0 30px 0 30px; */
     }
 
     /* .home-back {
@@ -482,7 +482,7 @@ a {
     .img-holder img {
         height: 180px;
         margin: auto;
-        border-radius: 0 30px 0 30px;
+        /* border-radius: 0 30px 0 30px; */
     }
     .home-back {
 
