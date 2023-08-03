@@ -48,26 +48,38 @@ html {
 .title-header-3 span {
     color:blue;
 }
+
+/* bob img  */
+.header-blob{
+    position:relative;
+    
+}
 .header-card-img{
-    Display:block;
-    /* background-color:red; */
+    position:absolute;
+    display:block;
     height:550px;
     margin: 0 auto;
     margin-top:10px;
     width:300px;
+    position:absolute;
+    left:100px;
+}
+
+
+.header-card-blob-img{
+    
+    height:570px;
+    width:540px;
 }
 .header-card-btn{
     margin-top:20px;   
-    /* background-color:orange; */
     background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
-    /* padding:14px 9px 14px 9px; */
     padding: 10px 60px;
     border:none;
     font-size:20px;
     font-weight:bold;
     border-radius:30px;
     color:white;
-    /* box-shadow: 0 1px 8px 1px black; */
 }
 .populer-sports-main-container{
     height:100vh;
@@ -186,11 +198,25 @@ ol li{
         color: black;
         box-shadow: 0 1px 8px 1px black;
     }
-    .header-card-img {
-        Display: block;
-        height: 449px;
-        margin: 0 auto;
-        margin-top: -10px;
+    .header-blob{
+        position:relative;
+        
+    }
+    .header-card-img{
+        position: absolute;
+        display: block;
+        height: 537px;
+        margin: -16px auto;
+        width: 300px;
+        position: absolute;
+        left: 94px;
+    }
+    
+    
+    .header-card-blob-img{
+        
+        height:550px;
+        width:540px;
     }
     .header-card {
         height:550px;
@@ -278,15 +304,28 @@ ol li{
         width: 657px;
         padding: 15px;
     }
-    .header-card-img {
-        Display: block;
-        /* background-color: red; */
-        height: 481px;
-        margin: 0 auto;
-        margin-top: 10px;
-        width: 301px;
-    }
 
+     /* bob img css  */
+    .header-blob{
+        position:relative;
+        
+    }
+    .header-card-img{
+        position: absolute;
+        display: block;
+        height: 520px;
+        margin: -30px auto;
+        width: 320px;
+        position: absolute;
+        left: 94px;
+    }
+    
+    
+    .header-card-blob-img{
+        
+        height:530px;
+        width:540px;
+    }
     /* .populer-sports-main-container  */
 
     .populer-sports-main-container {
