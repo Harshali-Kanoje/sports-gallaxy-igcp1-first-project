@@ -1,177 +1,278 @@
     body {
-        margin: 0;
-        padding: 0;
-        /* font-family: 'Playfair Display'; */
-        box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+         /* font-family: 'Playfair Display'; */
+         box-sizing: border-box;
     }
-    .header-container
-    {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .main-header-container
-    {
-        height: 100vh;
-        /* background-color: aquamarine; */
-    }
-    .team-cards
-    {
-        width: 600px;
-        height: 100vh;
-        /* background-color:red; */
-    }
-    .header-cricket-heading
-    {
-        font-weight: 40px;
-        font-size: 100px;
-        color: 	black;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        color: 	 orange;
-    }
-    .header-heading-1 
-    {
-        font-size: 40px;
-    }
-     .header-heading-1 span
-    {
-        color: blue;
-    }
-    .cricket-img
-    {
-        display: block;
-        /* background-color: brown; */
-        margin-left: auto;
-        margin-right: auto;
-        height: 650px;
-    }
-    .para
-    {
-        margin-top: 20px;
-        line-height: 2;
-        font-size: 20px;
-        font-weight: bold;
-        color: #1f1919;
-    }
-    .Explore-US-btn
-    {
-        background-color: orange;
-        margin-top: 20px;
-        /* text-decoration: none; */
-        padding: 14px 9px;
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-        border: none;
-        border-radius: 8px;
 
-    }
-    .cricket-player-container-main-header
-    {
-        height: 100vh;
-        background-color: #e1e1e9;
-        /* display: flex; */
-    
-    
-    }
-    
-    .popular-sports-men-header
-    {
-        text-align: center;
-        font-size: 60px;
-        
-        /* margin-left: 450px; */
-        
-    }
-    .popular-sports-men-header span
-    {
-        color:blue;
-        /* text-align: center; */
-        /* margin-left: auto;
-        margin-right: auto; */
-    }
-   .sports-cards-conatiner
-   {
+    .header-container {
          display: flex;
          justify-content: space-evenly;
-   }
-   .sports-cards
-   {
-        border: 3px solid orange;
-        height: 389px;
-        width: 286px;
-        margin-top: 50px; 
-        height:420px;
-        padding: 4px;   
-        transition:all 0.6s ease-in-out;  
-   }
-   .sports-cards:hover
-   {
-    box-shadow: 0px 0px 30px -10px gray;
-    transform:translateY(-10px)
-   }
+    }
 
-   .card-imges
-   {
-       height: 200px;
-       width:  100%;
-       object-fit: center;
-        /* display: flex;
+    .main-header-container {
+         height: 100vh;
+         /* background-color: aquamarine; */
+    }
+
+    .team-cards {
+         width: 600px;
+         height: 100vh;
+         /* background-color:red; */
+    }
+
+    .header-cricket-heading {
+         font-weight: 40px;
+         font-size: 100px;
+         color: black;
+         margin-top: 40px;
+         margin-bottom: 20px;
+         color: orange;
+    }
+
+    .header-heading-1 {
+         font-size: 40px;
+    }
+
+    .header-heading-1 span {
+         color: blue;
+    }
+
+    .cricket-img {
+         display: block;
+         /* background-color: brown; */
+         margin-left: auto;
+         margin-right: auto;
+         height: 650px;
+    }
+
+    .para {
+         margin-top: 20px;
+         line-height: 2;
+         font-size: 20px;
+         font-weight: bold;
+         color: #1f1919;
+    }
+
+    .Explore-US-btn {
+         background-color: orange;
+         margin-top: 20px;
+         /* text-decoration: none; */
+         padding: 14px 9px;
+         color: black;
+         font-size: 20px;
+         font-weight: bold;
+         border: none;
+         border-radius: 8px;
+
+    }
+
+    .cricket-player-container-main-header {
+         height: 100vh;
+         background-color: #e1e1e9;
+         /* display: flex; */
+
+
+    }
+
+    .popular-sports-men-header {
+         text-align: center;
+         font-size: 60px;
+
+         /* margin-left: 450px; */
+
+    }
+
+    .popular-sports-men-header span {
+         color: blue;
+         /* text-align: center; */
+         /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .sports-cards-conatiner {
+         display: flex;
+         justify-content: space-evenly;
+    }
+
+    .sports-cards {
+         border: 3px solid orange;
+         height: 389px;
+         width: 286px;
+         margin-top: 50px;
+         height: 420px;
+         padding: 4px;
+         transition: all 0.6s ease-in-out;
+    }
+
+    .sports-cards:hover {
+         box-shadow: 0px 0px 30px -10px gray;
+         transform: translateY(-10px)
+    }
+
+    .card-imges {
+         height: 200px;
+         width: 100%;
+         object-fit: center;
+         /* display: flex;
         margin-left: auto;
         margin-right: auto; */
-       
-   }
-   .cricketer-name
-   {
-        text-align: center;
-        padding: 10px;
-   }
-   .know-more-btn
-   {
-        /* padding: 10px;
+    }
+
+    .cricketer-name {
+         text-align: center;
+         padding: 10px;
+    }
+
+    .know-more-btn {
+         /* padding: 10px;
         margin-left: 20px;
         margin-top: 20px;
         background-color: orange;
         font-size: 20px;
         font-weight: bold; */
-        display: block;
-        margin: 0px auto;
-        padding: 8px 15px 8px 15px;
-        background-color: orange;
-        border: none;
-        font-weight: bold;
-       
-   }
-   .para-about-cricket
-   {
-        text-align: justify;
-        margin: 10px 10px;
-        font-size: 13px;
-        font-weight: bold;
-        line-height: 1;
-   }
+         display: block;
+         margin: 0px auto;
+         padding: 8px 15px 8px 15px;
+         background-color: orange;
+         border: none;
+         font-weight: bold;
 
-   .rules-main-conatiners
-   {
-        background-color: aquamarine;
-        height: 100vh;
-   }
-   .rules-container
-   {
-            padding: 20px;
-            font-weight: bold;
-   }
-   .rule-section-1
-   {
-        padding: 20px;
-   }
-   ol li
-   {
-        padding: 8px;
-   }
-   .ground-img
-   {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   }
+    }
+
+    .para-about-cricket {
+         text-align: justify;
+         margin: 10px 10px;
+         font-size: 13px;
+         font-weight: bold;
+         line-height: 1;
+    }
+
+    .rules-main-conatiners {
+         background-color: aquamarine;
+         height: 100vh;
+    }
+
+    .rules-container {
+         padding: 20px;
+         font-weight: bold;
+    }
+
+    .rule-section-1 {
+         padding: 20px;
+    }
+
+    ol li {
+         padding: 8px;
+    }
+
+    .ground-img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+    .sports-eccards-main-conatiner {
+         /* background-color: aquamarine; */
+         height: 100vh;
+    }
+
+    .ec-cards-conatiner-main {
+         background-color: aliceblue;
+         height: 100vh;
+    }
+
+    .ec-cards-display {
+         display: flex;
+         justify-content: space-evenly;
+      align-items : center;
+      flex-wrap:wrap
+       ;
+    }
+
+    .ec-cards-new {
+         border: 3px solid rgb(37, 37, 69);
+         height: 450px;
+         width: 300px;
+         margin-top: 70px;
+         border-radius: 5px;
+         box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+         background-color: white ;
+    }
+
+    .ec-cards-new:hover {
+         box-shadow: 7px 7px 20px 1px grey;
+    }
+
+    .ec-bat-new {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         height: 200px;
+         padding-top: 30px;
+    }
+
+    .collection-heading {
+         text-align: center;
+         color: #000066;
+         padding-top: 40px;
+         font-size: 50px;
+    }
+
+    .product-name-container {
+         text-align: center;
+         margin-top: 20px;
+    }
+
+    .product-name-heading {
+         color: #000066;
+    }
+
+    .rupee-icon {
+         height: 25px;
+         color: #000066;
+    }
+
+    .span-2999 {
+         color: #000066;
+         font-size: 30px;
+
+    }
+
+    /* .rupee-icon span
+ {
+     height: 30px;
+     color: #000066;
+ } */
+
+    .price {
+         position: relative;
+         left: 80px;
+         top: 30px;
+         height: 20px;
+    }
+
+    .rating-icons {
+         display: flex;
+         margin-left: auto;
+         margin-right: auto;
+         height: 90px;
+         margin-top: 30px;
+         color: #000066;
+    }
+
+    .btn-buy-know {
+         padding: 10px 15px 10px 15px;
+         border: 3px solid #000066;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         border-radius: 4px;
+         font-weight: bolder;
+         font-size: 15px;
+         background-color: #ffffff;
+    }
+
+    .btn-buy-know:hover {
+         background-color: #cacaee;
+    }
