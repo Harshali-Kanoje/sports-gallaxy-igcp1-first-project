@@ -98,6 +98,7 @@
     .sports-cards-conatiner {
          display: flex;
          justify-content: space-evenly;
+         flex-wrap: wrap;
     }
 
     .sports-cards {
@@ -200,7 +201,7 @@
 
     .ec-cards-new {
          border: 3px solid rgb(37, 37, 69);
-         height: 450px;
+         height: 470px;
          width: 300px;
          margin-top: 70px;
          border-radius: 5px;
@@ -254,10 +255,13 @@
  } */
 
     .price {
-         position: relative;
+         /* position: relative;
          left: 80px;
-         top: 30px;
-         height: 20px;
+         top: 30px; */
+         height: 5px;
+         text-align: center;
+         margin-top: 20px;
+         /* background-color: aqua; */
     }
 
     .rating-icons {
@@ -270,15 +274,12 @@
     }
 
     .btn-buy-know {
-         /* padding: 10px 15px 10px 15px; */
-         /* border: 3px solid #000066; */
+        
          display: block;
          margin-left: auto;
          margin-right: auto;
-         /* border-radius: 4px; */
          font-weight: bolder;
          font-size: 15px;
-         /* background-color: #ffffff; */
          padding: 10px 30px ;
          background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
          color: white;
