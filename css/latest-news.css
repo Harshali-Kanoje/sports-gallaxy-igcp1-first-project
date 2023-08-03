@@ -60,9 +60,6 @@
     
 }
 
-.chess-news-list h2{
-    /* */
-}
 .chess-news{
     display: flex;
     justify-content: space-evenly;
