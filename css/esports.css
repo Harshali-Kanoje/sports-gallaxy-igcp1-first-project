@@ -98,25 +98,103 @@ body {
 
 }
 
-    .main-card-container
-    {
-        height: 100vh;
-        background-color: aquamarine;
-    }
-    .popular-games-heading
-    {
-        text-align: center;
-        font-size: 60px;
-        color: white;
-    }
-    .display-cards-gaming-1
-    {
+   .gaming-main-card-conatiner
+   {
+    /* height: 100vh; */
+    background-color: #000033 ;
+   }
+   .Popular-Games-heading
+   {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+   }
+   .card-conatiner-1
+   {
         display: flex;
         justify-content: space-evenly;
-    }
-    .card-conatine-1
-    {
+   }
+   .cards
+   {
         border: 3px solid black;
-        height: 400px;
+        /* height: 400px; */
         width: 300px;
+        /* flex-wrap: wrap; */
+        margin-bottom: 30px;
+        border-radius: 10px;
+        background-color:  #00004d;     
+   }
+    .cards:hover
+    {
+        box-shadow: 0 0 15px 0.5px  #8080ff;
+        border-radius: 10px;
     }
+   .card-conatiner-2
+   {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   
+   }
+
+   .card-img
+   {
+        /* height: 200px; */
+        width: 300px;
+        
+   }
+   .game-name
+   {
+        font-size: 20px;
+        color: white;
+        margin-left: 20px;
+   }
+   .horizonatl-line
+   {
+        border: 15px double white;
+        border-radius: 10px;
+   }
+   .conatainer-price
+   {
+        display: flex;
+   }
+   .play-now-btn
+   {
+    border: 2px solid blue;
+    padding: 10px 15px 10px 15px;
+    /* color: white; */
+    font-weight: bolder;
+    font-size: 15px;
+    /* margin-top: 30px; */
+    color: white;
+    background-color: #000033;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+   }
+   .pricing
+   {
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+
+   }
+   .price-div
+   {
+        margin-top: 15px;
+   }
+   .doller
+   {
+        font-size: 20px;
+        color: aqua;
+        margin-top: 10px;
+        margin-left: 10px;
+   }
+  
+   .play-now-btn:hover
+   {
+    background-color: aqua;
+    color: blue;
+   }
