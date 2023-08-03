@@ -3,9 +3,7 @@ body{
     padding:0px;
     /* font-family: 'Playfair Display'; */
     background-color:white;
-    font-family: 'Poppins';
-   
-      
+    font-family: 'Poppins';     
 }
 html {
     scroll-behavior: smooth;
