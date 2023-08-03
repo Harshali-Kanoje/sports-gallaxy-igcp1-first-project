@@ -297,6 +297,9 @@ a {
     width: 700px;
 }
 
+.footer-para h4{
+    font-size: 35px;
+}
 /* media query */
 
 @media screen and (max-width:600px) {
