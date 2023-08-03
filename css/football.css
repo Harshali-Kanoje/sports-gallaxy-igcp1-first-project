@@ -168,6 +168,118 @@ ol li{
     
 }
 
+/* ecommerce card css  */
+
+.ec-cards-conatiner-main {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.ec-cards-display {
+    display: flex;
+    justify-content: space-evenly;
+ align-items : center;
+ flex-wrap:wrap
+  ;
+}
+
+.ec-cards-new {
+    border: 3px solid #FF9800;
+    height: 416px;
+    width: 265px;
+    margin-top: 43px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+    background-color: white;
+}
+
+.ec-cards-new:hover {
+    box-shadow: 7px 7px 20px 1px grey;
+}
+
+
+    .ec-bat-new {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 158px;
+        padding-top: 30px;
+    }
+
+
+.collection-heading {
+    text-align: center;
+    color: #000066;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.product-name-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-name-heading {
+    
+        color: #000066;
+        font-size: 20px;
+    
+}
+
+.rupee-icon {
+    height: 25px;
+    color: #000066;
+}
+
+.span-2999 {
+    color: #000066;
+    font-size: 30px;
+
+}
+
+/* .rupee-icon span
+{
+height: 30px;
+color: #000066;
+} */
+
+.price {
+    /* position: relative;
+    left: 80px;
+    top: 30px; */
+    height: 5px;
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.rating-icons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    margin-top: 30px;
+    color: #000066;
+}
+
+.btn-buy-know {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px 30px ;
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-buy-know:hover {
+    background-color: #cacaee;
+}
+
 @media screen and (max-width:600px){
     .title-header-1 {
         margin-top: 20px;
@@ -288,6 +400,24 @@ ol li{
         margin-right: auto;
         height: 197px;
     }
+
+    /* ecomerce-card  */
+    .collection-heading {
+        text-align: center;
+        color: #000066;
+        padding-top: 40px;
+        font-size: 29px;
+    }
+
+    .ec-cards-new {
+        border: 3px solid #FF9800;
+        height: 411px;
+        width: 261px;
+        margin-top: 37px;
+        border-radius: 5px;
+        box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+        background-color: white;
+    }
           
 }
 
@@ -389,6 +519,29 @@ ol li{
             margin-left: auto;
             margin-right: auto;
             height: 397px;
+        }
+        /* ecomerce card  */
+        .collection-heading {
+            text-align: center;
+            color: #000066;
+            padding-top: 40px;
+            font-size: 53px;
+        }
+        .ec-cards-new {
+            border: 3px solid rgb(255, 152, 0);
+            height: 418px;
+            width: 307px;
+            margin-top: 64px;
+            border-radius: 5px;
+            box-shadow: rgb(112, 111, 111) 0px 0px 15px 1px;
+            background-color: white;
+        }
+        .ec-bat-new {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 168px;
+            padding-top: 24px;
         }
            
 }
