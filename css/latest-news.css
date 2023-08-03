@@ -1,20 +1,28 @@
-body{
-    padding: 0px 80px;
+*{
+    margin: 0;
+
 }
+
 
 .l-n-c{
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 80px;
+    background-color: #0a112d;
+    color:#F86F03;
+    padding-bottom: 30px;
 }
 
 .latest-news h1{
     font-size: 60px;
     color:#0a1df6;
+    margin: 40px;
 }
 .latest-news-heading{
     font-size: 40px;
-    color:#F86F03;
+    color: #F86F03;
     text-align: center;
+    margin: 40px;
 }
 
 
@@ -22,8 +30,12 @@ body{
     margin: 0 30px;
 }
 
+.l-n-p-c ul li{
+    color: white;
+}
+
 .l-n-p-klaas{
-    color: #0a1df6;
+    color: black;
     font-size: 20px;
 }
 
@@ -48,9 +60,14 @@ body{
     
 }
 
+.chess-news-list h2{
+    /* */
+}
 .chess-news{
     display: flex;
     justify-content: space-evenly;
+    
+    padding: 0px 80px;
 }
 
 /* media query */
@@ -64,12 +81,16 @@ body{
     
     .l-n-c{
         flex-direction: column;
+        padding: 0 10px;
     }
     .news-img{
         width: 95%;
         margin: auto;
     }
 
+    .news-img img{
+        height: 289px;
+    }
     .latest-news-heading{
         font-size: 32px;
     }
@@ -84,6 +105,7 @@ body{
 
     .chess-news{
         flex-direction: column-reverse;
+        padding: 0 10px;
     }
 
     .chess-news-image{
