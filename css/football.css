@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding:0px;
     /* font-family: 'Playfair Display'; */
-    background-color:#white;
+    background-color:white;
     font-family: 'Poppins';
    
       
@@ -58,14 +58,16 @@ html {
 }
 .header-card-btn{
     margin-top:20px;   
-    background-color:orange;
-    padding:14px 9px 14px 9px;
+    /* background-color:orange; */
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    /* padding:14px 9px 14px 9px; */
+    padding: 10px 60px;
     border:none;
     font-size:20px;
     font-weight:bold;
-    border-radius:8px;
-    color:black;
-    box-shadow: 0 1px 8px 1px black;
+    border-radius:30px;
+    color:white;
+    /* box-shadow: 0 1px 8px 1px black; */
 }
 .populer-sports-main-container{
     height:100vh;
