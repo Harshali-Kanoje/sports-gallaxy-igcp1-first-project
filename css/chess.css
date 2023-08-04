@@ -45,7 +45,7 @@ body{
 .para{
     padding: 15px 23px;
     font-size: 17px;
-    color: white;
+    color: black;
 }
 .font-color{
     color: black;
@@ -62,38 +62,99 @@ body{
     color:black;
     box-shadow: 0 1px 8px 1px black;
 }
-.player-info{
-    height: 350px;
-    width: 250px;
-    margin: 80px 0;
-    padding: 15px;
-    border-radius: 5px;
-    border: 2px solid black;
+
+.cricket-player-container-main-header {
+    height: 100vh;
+    background-color: #e1e1e9;
+    /* display: flex; */
+
+
 }
-.player{
-    width: 250px;
-    height: 200px;
-    border-radius: 15px;
+
+.popular-sports-men-header {
+    text-align: center;
+    font-size: 60px;
+
+    /* margin-left: 450px; */
+
 }
+
+
+.sports-cards-conatiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .font-key
 {
     text-align: center;
     font-size: 60px;
     margin: 35px 0;
 }
-.info{
-    font-size: 15px;
-    padding: -5 15px;
+
+.sports-cards {
+    border: 3px solid orange;
+    height: 389px;
+    width: 286px;
+    margin-top: 50px;
+    height: 420px;
+    padding: 4px;
+    transition: all 0.6s ease-in-out;
 }
-.player-name{
-    margin: 10px 60px;
+.sports-cards:hover {
+    box-shadow: 0px 0px 30px -10px gray;
+    transform: translateY(-10px)
 }
-.bg{
+
+
+.card-imges {
+    height: 200px;
+    width: 100%;
+    object-fit: center;
+    /* display: flex;
+   margin-left: auto;
+   margin-right: auto; */
+}
+
+.cricketer-name {
+    text-align: center;
+    padding: 10px;
+}
+
+.know-more-btn {
+    /* padding: 10px;
+   margin-left: 20px;
+   margin-top: 20px;
+   background-color: orange;
+   font-size: 20px;
+   font-weight: bold; */
+    display: block;
+    margin: 0px auto;
+    padding: 10px 30px ;
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    
+
+}
+.para-about-cricket {
+    text-align: justify;
+    margin: 10px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+/* .bg{
     background: linear-gradient(rgb(0, 0, 0,0.9),rgb(0 ,0,0,0.8 ) ),url(./../images/bg1.jpeg);
     opacity: 0.9;
     background-size: cover;
     opacity: 0.9;
-}
+} */
 .chess{
     margin-top: -175px;
     margin-left: 350px;
@@ -101,7 +162,11 @@ body{
     border-radius: 5px;
 }
 .ex-height{
-    height: 25rem; margin: 20px 0; 
+    height: 25rem; 
+    margin-top: 30px; 
+}
+.bg1{
+    background-color: #e1e1e9;
 }
 
 
