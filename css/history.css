@@ -21,9 +21,9 @@ padding: 15px;
     margin: 10px;
 }
 .para-history-1{
-   margin: 40px;
+   /* margin: 40px; */
   text-align: justify;
- 
+  font-size: 25px;
 }
 .history-para-1{
  font-family: poppins;
@@ -66,6 +66,7 @@ box-shadow: 0 0 5px 1px rgb(107, 103, 103);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 300px;
 }
 .img-football-2002{
     width: 400px; 
@@ -76,7 +77,8 @@ box-shadow: 0 0 5px 1px rgb(107, 103, 103);
 .video-of-football{
     display: flex;
     justify-content: space-evenly;
-    margin: 20px;
+    margin: 10px;
+    margin-top: 100px;
   
 }
 .video-of-football-1{
@@ -85,7 +87,8 @@ box-shadow: 0 0 5px 1px rgb(107, 103, 103);
  padding: 1px;
  border: 1px solid blue;
  border-radius: 10px;
-margin: 10px;
+margin: 30px;
+
 }
 .video-card-football-1{
     height: 165px;
@@ -156,6 +159,80 @@ h2{
 h1{
   color: rgb(8, 18, 59);  
 }
+.e-sports-container{
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 250ms ;
+    padding: 30px;
+}
+.e-sports-img{
+    height: 110px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    
+}
+.e-sports-container:hover{
+ transform: translateY(-10px);
+
+}
+.e-sports-img:hover{
+   border: 2px solid orange;
+    cursor: pointer;
+    
+}
+.e-sports-info{
+    display: flex;
+    justify-content: space-between;
+}
+.esports-para{
+    display: inline-block;
+    height: 40px;
+    width: 900px;
+}
+.esports-gift{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30PX;
+}
+.img-web{
+    height: 450px;
+    width: 350px;
+    border-radius: 10PX;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 89, 43);
+    color: white;
+    padding: 20px 80px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    margin: 0 20px;
+}
+
+.footer-content a {
+    margin: 20px 0;
+    color: black;
+    display: block;
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.footer-para {
+    width: 700px;
+}
+
+.footer-para h4 {
+    font-size: 35px;
+}
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
