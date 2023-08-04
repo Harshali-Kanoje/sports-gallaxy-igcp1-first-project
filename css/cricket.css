@@ -332,4 +332,13 @@
           flex-wrap: wrap;
           padding-bottom: 50px;
       }
+      
+.header-cricket-heading {
+     font-weight: 40px;
+     font-size: 80px;
+     color: black;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     color: orange;
+ }
   }
