@@ -156,6 +156,7 @@ h2{
 h1{
   color: rgb(8, 18, 59);  
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     *{
@@ -315,4 +316,4 @@ h1{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
 
-/* Extra large devices (large laptops and desktop
+
