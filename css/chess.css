@@ -233,9 +233,13 @@ height: 91vh;
     font-size: 35px;
 }
 
+.sidebar-content a{
+    text-decoration: none;
+}
 
-
-
+.sportsmen-card a{
+  text-decoration: none;
+}
 
 
 
