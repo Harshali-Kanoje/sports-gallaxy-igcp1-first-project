@@ -270,6 +270,59 @@ color: #000066;
     background-color: #cacaee;
 }
 
+.moment-main-container{
+    height:100vh;
+}
+.moment-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center ;
+    margin-top:20px; 
+    flex-wrap:wrap;
+   }
+
+.moment-header{
+    margin:30px auto;
+    text-align:center;
+    font-size:50px;
+    color: #000066;
+
+
+}
+
+.moment-card{
+    border:2px solid black;
+    height:400px;
+    width:350px;
+    border:2px solid orange;
+    box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+    border-radius:5px;
+}
+.moment-card-vdo {
+    padding:5px;
+
+    width:100%;
+    object-fit:center;
+}
+
+.moment-title{
+    text-align:center;
+    color: #000066;
+    margin-top:10px;
+    line-height:2;
+}
+.moment-btn-container{
+   text-align:center;
+   margin-top:8px;
+}
+.moment-btn{
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    padding: 10px 30px;
+    color:#ffff;
+    border:none;
+    border-radius:30px;
+}
+
 @media screen and (max-width:600px){
     .title-header-1 {
         margin-top: 20px;

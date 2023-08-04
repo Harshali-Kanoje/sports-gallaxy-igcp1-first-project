@@ -368,13 +368,13 @@ a {
     }
 
     .home-back h1 {
-        font-size: 30px;
+        font-size: 25px;
         margin: 0;
 
     }
 
     .home-back p {
-        font-size: 13px;
+        font-size: 12px;
         margin: 5px 0;
     }
 
@@ -501,18 +501,19 @@ a {
         flex-direction: column;
         justify-content: center;
         padding: 10px 10px;
-        margin-top: 487px;
+        /* margin-top: 487px; */
+        margin: 0;
     }
 
     .footer-para {
         width: 345px;
     }
 
-    .sidebar .sidebar-content {
+    /* .sidebar .sidebar-content {
         top: 673px;
         height: 60px;
         width: 100%;
-    }
+    } */
 
     .sidebar-content {
         display: flex;
@@ -528,7 +529,7 @@ a {
     /* mobile side bar  */
 
     .sidebar .sidebar-content {
-        top: 1012px;
+        top: 673px;
         height: 60px;
         width: 100%;
     }
