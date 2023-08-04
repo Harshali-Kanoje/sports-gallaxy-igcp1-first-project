@@ -63,27 +63,23 @@ body{
     box-shadow: 0 1px 8px 1px black;
 }
 
-.cricket-player-container-main-header {
-    height: 100vh;
-    background-color: #e1e1e9;
-    /* display: flex; */
-
+.populer-sports-main-container{
+    height:100vh;
+    background-color:#e1e1e9;
 
 }
 
-.popular-sports-men-header {
-    text-align: center;
-    font-size: 60px;
-
-    /* margin-left: 450px; */
+.populer-sports-men-header{
+    text-align:center;
+    padding:15px;
+    font-size:50px;
 
 }
 
+.populer-sports-men-header span{
+    font-size:50px;     
+    color:blue;
 
-.sports-cards-conatiner {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .font-key
@@ -93,61 +89,60 @@ body{
     margin: 35px 0;
 }
 
-.sports-cards {
-    border: 3px solid orange;
+.populer-sportsmen-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-item:center;
+    margin-top:40px;
+    flex-wrap:wrap;  
+ }
+ .sportsmen-card{
     height: 389px;
     width: 286px;
-    margin-top: 50px;
-    height: 420px;
-    padding: 4px;
-    transition: all 0.6s ease-in-out;
-}
-.sports-cards:hover {
-    box-shadow: 0px 0px 30px -10px gray;
-    transform: translateY(-10px)
-}
+    border:2px solid orange;
+    padding:5px;
+    background-color:white;
+    transition: 0.7s ease-in-out;
+    border-radius:5px;
+    }
+    .sportsmen-card:hover{
+        box-shadow: 0px 0px 30px -10px gray;
+        transform:translateY(-10px)
+    
+    }
 
-
-.card-imges {
-    height: 200px;
-    width: 100%;
-    object-fit: center;
-    /* display: flex;
-   margin-left: auto;
-   margin-right: auto; */
-}
-
+    .sportsmen-card-img{
+        height:200px;
+        width:100%;
+        object-fit:center;
+    }
 .cricketer-name {
     text-align: center;
     padding: 10px;
 }
-
-.know-more-btn {
-    /* padding: 10px;
-   margin-left: 20px;
-   margin-top: 20px;
-   background-color: orange;
-   font-size: 20px;
-   font-weight: bold; */
-    display: block;
-    margin: 0px auto;
-    padding: 10px 30px ;
-    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
-    color: white;
-    border-radius: 30px;
-    border: none;
-    font-weight: bold;
+.sportsmen-card-title{
+    text-align:center;
+    padding:10px;
+    }
+    .sport-men-card-dec{
+        text-align:justify;
+        margin: 10px 10px;
     
-
-}
-.para-about-cricket {
-    text-align: justify;
-    margin: 10px 10px;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 1;
-}
-
+        font-size:10px;
+        font-weight:bold;
+        line-height:1.6;
+    
+    }
+    .sport-men-card-btn{
+        display:block;
+        margin: 0px auto;
+        padding: 10px 30px;
+        border-radius:30px; 
+        color:white;
+        background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+        border:none;
+        font-weight:bold;
+    }
 
 /* .bg{
     background: linear-gradient(rgb(0, 0, 0,0.9),rgb(0 ,0,0,0.8 ) ),url(./../images/bg1.jpeg);
@@ -169,8 +164,40 @@ body{
     background-color: #e1e1e9;
 }
 
+/* Side Bar */
+.sidebar .sidebar-content {
+    position: fixed;
+    /* top: 192px; */
+    bottom: 0;
+    right: 0;
+    background-color: #0a112d;
+height: 91vh;
+    /* height: 460px; */
+    width: 60px;
+    border-radius: 10px 0 0 10px;
+}
 
+.sidebar-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    color: white;
+    font-size: 25px;
+    /* margin: 40px; */
+    margin: 50px 0;
 
+}
+
+.bar:hover{
+    /* background-color: #f4700b; */
+    color: #f4700b;
+    font-size: 27px;
+    transition: .3s ease-in-out;
+}
+.bar i{
+    margin: auto;
+}
 
 
 
@@ -214,6 +241,76 @@ body{
         margin-left: 350px;
         height: 100px;
         border-radius: 5px;
+    }
+    .populer-sports-main-container {
+        background-color: #e1e1e9;
+        height:1800px;
+    }
+    .populer-sports-men-header {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .populer-sportsmen-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .sportsmen-card {
+        height: 370px;
+        width: 300px;
+        border: 2px solid orange;
+        padding: 5px;
+        background-color: white;
+        transition: 0.7s ease-in-out;
+        border-radius: 5px;
+        margin:10px;
+    }
+    .sportsmen-card:hover{
+        box-shadow: 0px 0px 30px -10px gray;
+        transform:translateY(-10px)
+    
+    }
+    .sportsmen-card-img {
+        height: 160px;
+        width: 100%;
+        object-fit: center;
+    }
+    .sport-men-card-dec {
+        text-align: justify;
+        margin: 7px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.6;
+    }
+    .sport-men-card-btn {
+        display: block;
+        margin: 0px auto;
+        padding: 10px 30px;
+    border-radius:30px; 
+    color:white;
+        background-color: orange;
+        border: none;
+        font-weight: bold;
+    }
+
+    /* Side bar */
+    .sidebar .sidebar-content {
+        top: 673px;
+        height: 60px;
+        width: 100%;
+    }
+
+    .sidebar-content {
+        display: flex;
+        justify-content: center;
+        padding: 0 30px;
+    }
+    .sidebar-content a {
+        font-size: 20px;
+        margin: 10px;
+    
     }
 }
 @media screen and(min-width:601px) and(max-width:768px) {
