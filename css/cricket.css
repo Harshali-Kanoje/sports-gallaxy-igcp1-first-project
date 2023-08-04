@@ -355,4 +355,137 @@
      height: 599px;
      margin-top: 45px;
  }
+
+ 
+
+.moment-header {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1648px;
+    color: #000066;
+}
+footer {
+     flex-direction: column;
+     justify-content: center;
+     padding: 10px 10px;
+     margin-top: 700px;
+ }
+ .moment-main-container {
+     margin-top: 1668px;
+ }
   }
+
+
+  
+.footer {
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #0a112d;
+     color: white;
+     padding: 20px 80px;
+ }
+ 
+ .footer-content {
+     margin: 0 20px;
+ }
+ 
+ .footer-content a {
+     margin: 20px 0;
+     color: #F86F03;
+     display: block;
+     font-weight: bold;
+ }
+ 
+ .footer-content h4 {
+     margin: 20px 0;
+     font-size: 25px;
+ }
+ 
+ .footer-para {
+     width: 700px;
+ }
+ 
+ .footer-para h4 {
+     font-size: 35px;
+ }
+
+
+
+ /* <!-- sports notable section  --> */
+.moment-main-container{
+     height:100vh;
+ }
+ .moment-container{
+     display:flex;
+     justify-content:space-evenly;
+     align-items:center ;
+     margin-top:20px; 
+     flex-wrap:wrap;
+    }
+ 
+ .moment-header{
+     margin:30px auto;
+     text-align:center;
+     font-size:50px;
+     color: #000066;
+ 
+ 
+ }
+ 
+ .moment-card{
+     border:2px solid black;
+     height:400px;
+     width:350px;
+     border:2px solid orange;
+     box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+     border-radius:5px;
+ }
+ .moment-card-vdo {
+     padding:5px;
+ 
+     width:100%;
+     object-fit:center;
+ }
+ 
+ .moment-title{
+     text-align:center;
+     color: #000066;
+     margin-top:10px;
+     line-height:2;
+ }
+ .moment-btn-container{
+    text-align:center;
+    margin-top:8px;
+ }
+ .moment-btn{
+     background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+     padding: 10px 30px;
+     color:#ffff;
+     border:none;
+     border-radius:30px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
