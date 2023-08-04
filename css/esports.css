@@ -1,4 +1,5 @@
-body {
+body,
+* {
     padding: 0;
     margin: 0;
 }
@@ -47,9 +48,13 @@ body {
     border-radius: 10px;
     margin-top: 50px;
 }
-.ghost-img :hover
-{
-    box-shadow: 10px 10px 80px 20px green;
+
+.ghost-img:hover {
+    box-shadow: 2px 0px 40px 10px rgba(31, 231, 81, 0.468);
+}
+
+.two-conatine img {
+    box-shadow: 10px 10px 80px 20px red;
 }
 
 .title-container {
@@ -94,6 +99,8 @@ body {
 .display-conatiner-2 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .about-us {
@@ -208,14 +215,13 @@ body {
     color: blue;
 }
 
- .game-footer-container
- {
-        background-color: red;
-        height: 100vh;
- } 
+.game-footer-container {
+    background-color: red;
+    height: 100vh;
+}
 
 
- .sidebar .sidebar-content {
+.sidebar .sidebar-content {
     position: fixed;
     /* top: 192px; */
     bottom: 0;
@@ -283,4 +289,40 @@ body {
     font-size: 35px;
 }
 
+.footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+    /* margin-top: 487px; */
+    margin: 0;
+}
 
+.footer-para {
+    width: 345px;
+}
+
+
+@media screen and (max-width:600px) {
+    .ghost-img {
+        height: 259px;
+        width: 259px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 30px; */
+        /* padding-top: 60px; */
+        /* border: 2px solid blue; */
+        border-bottom: 5px solid blue;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+
+    .gaming-2-img {
+
+
+        height: 365px;
+        margin-top: 18px;
+    }
+
+   
+}

@@ -355,6 +355,25 @@
      height: 599px;
      margin-top: 45px;
  }
+
+ 
+
+.moment-header {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1648px;
+    color: #000066;
+}
+footer {
+     flex-direction: column;
+     justify-content: center;
+     padding: 10px 10px;
+     margin-top: 700px;
+ }
+ .moment-main-container {
+     margin-top: 1668px;
+ }
   }
 
 
