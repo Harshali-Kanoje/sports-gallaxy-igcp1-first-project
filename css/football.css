@@ -515,6 +515,9 @@ color: #000066;
         color: #000066;
         margin-top: 1164px;
     }
+    .moment-main-container {
+        height: 800px;
+    }
 
     
 .moment-card {
@@ -540,6 +543,8 @@ color: #000066;
     flex-direction: column;
     justify-content: center;
     padding: 10px 10px;
+    margin-top:600px;
+    
 }
 
 .footer-para {
@@ -708,7 +713,7 @@ color: #000066;
     margin-top: 10px;
 }
 .moment-main-container {
-    height: 700px;
+    height: 800px;
 }
 /* footer */
 .footer {
