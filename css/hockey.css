@@ -270,6 +270,93 @@ color: #000066;
     background-color: #cacaee;
 }
 
+/* <!-- sports notable section  --> */
+.moment-main-container{
+    height:100vh;
+}
+.moment-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center ;
+    margin-top:20px; 
+    flex-wrap:wrap;
+   }
+
+.moment-header{
+    margin:30px auto;
+    text-align:center;
+    font-size:50px;
+    color: #000066;
+
+
+}
+
+.moment-card{
+    border:2px solid black;
+    height:400px;
+    width:350px;
+    border:2px solid orange;
+    box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+    border-radius:5px;
+}
+.moment-card-vdo {
+    padding:5px;
+
+    width:100%;
+    object-fit:center;
+}
+
+.moment-title{
+    text-align:center;
+    color: #000066;
+    margin-top:10px;
+    line-height:2;
+}
+.moment-btn-container{
+   text-align:center;
+   margin-top:8px;
+}
+.moment-btn{
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    padding: 10px 30px;
+    color:#ffff;
+    border:none;
+    border-radius:30px;
+}
+
+/* footer  */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a112d;
+    color: white;
+    padding: 20px 80px;
+}
+
+.footer-content {
+    margin: 0 20px;
+}
+
+.footer-content a {
+    margin: 20px 0;
+    color: #F86F03;
+    display: block;
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.footer-para {
+    width: 700px;
+}
+
+.footer-para h4 {
+    font-size: 35px;
+}
+
 @media screen and (max-width:600px){
     .title-header-1 {
         margin-top: 20px;
@@ -287,7 +374,7 @@ color: #000066;
         color: #1f1919;
         font-size: 16px;
     }
-    ..header-card-btn {
+    .header-card-btn {
         margin-top: 16px;
         background-color: orange;
         padding: 10px 30px;
@@ -319,7 +406,7 @@ color: #000066;
         background-color: #e1e1e9;
         height:1800px;
     }
-    ..populer-sports-men-header {
+    .populer-sports-men-header {
         text-align: center;
         padding: 10px;
         font-size: 20px;
@@ -384,6 +471,95 @@ width: 98%;
     .ground-img{
         width: 100%;
     }
+
+    /* ecomerce-card  */
+    .collection-heading {
+        text-align: center;
+        color: #000066;
+        padding-top: 40px;
+        font-size: 29px;
+    }
+    .ec-cards-conatiner-main {
+        background-color: aliceblue;
+        height: 769px;
+    }
+
+    .ec-cards-new {
+        border: 3px solid #FF9800;
+        height: 411px;
+        width: 261px;
+        margin-top: 37px;
+        border-radius: 5px;
+        box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+        background-color: white;
+    }
+
+/* <!-- sports notable section  --> */
+.moment-main-container{
+    height:100vh;
+}
+.moment-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center ;
+    margin-top:20px; 
+    flex-wrap:wrap;
+   }
+
+.moment-header{
+    margin:30px auto;
+    text-align:center;
+    font-size:50px;
+    color: #000066;
+
+
+}
+
+.moment-card{
+    border:2px solid black;
+    height:400px;
+    width:350px;
+    border:2px solid orange;
+    box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+    border-radius:5px;
+}
+.moment-card-vdo {
+    padding:5px;
+
+    width:100%;
+    object-fit:center;
+}
+
+.moment-title{
+    text-align:center;
+    color: #000066;
+    margin-top:10px;
+    line-height:2;
+}
+.moment-btn-container{
+   text-align:center;
+   margin-top:8px;
+}
+.moment-btn{
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    padding: 10px 30px;
+    color:#ffff;
+    border:none;
+    border-radius:30px;
+}
+
+
+.footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+    margin-top:600px;
+    
+}
+
+.footer-para {
+    width: 345px;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
@@ -414,7 +590,7 @@ width: 98%;
         background-color:#e1e1e9;
         height:950px;
     }
-    ..populer-sports-men-header {
+    .populer-sports-men-header {
         text-align: center;
         padding: 14px;
         font-size: 25px;

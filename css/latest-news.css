@@ -240,7 +240,8 @@ height: 91vh;
     }
 
     .sidebar .sidebar-content {
-        top: 610px;
+        bottom: 0;
+        /* top: 610px; */
         height: 60px;
         width: 100%;
         border-radius: 0 0 0 0;
