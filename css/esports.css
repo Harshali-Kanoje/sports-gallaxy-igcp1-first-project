@@ -41,6 +41,14 @@ body {
     margin-right: auto;
     /* margin-top: 30px; */
     padding-top: 60px;
+    /* border: 2px solid blue; */
+    border-bottom: 5px solid blue;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.ghost-img :hover
+{
+    box-shadow: 10px 10px 80px 20px green;
 }
 
 .title-container {
@@ -98,69 +106,68 @@ body {
 
 }
 
-   .gaming-main-card-conatiner
-   {
+.gaming-main-card-conatiner {
     /* height: 100vh; */
-    background-color: #000033 ;
-   }
-   .Popular-Games-heading
-   {
+    background-color: #000033;
+    margin-bottom: 50px;
+}
+
+.Popular-Games-heading {
     padding-top: 30px;
     text-align: center;
     color: white;
     font-size: 60px;
-   }
-   .card-conatiner-1
-   {
-        display: flex;
-        justify-content: space-evenly;
-   }
-   .cards
-   {
-        border: 3px solid black;
-        /* height: 400px; */
-        width: 300px;
-        /* flex-wrap: wrap; */
-        margin-bottom: 30px;
-        border-radius: 10px;
-        background-color:  #00004d;     
-   }
-    .cards:hover
-    {
-        box-shadow: 0 0 15px 0.5px  #8080ff;
-        border-radius: 10px;
-    }
-   .card-conatiner-2
-   {
+}
+
+.card-conatiner-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    border: 3px solid black;
+    /* height: 400px; */
+    width: 300px;
+    /* flex-wrap: wrap; */
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #00004d;
+}
+
+.cards:hover {
+    box-shadow: 0 0 15px 0.5px #8080ff;
+    border-radius: 10px;
+}
+
+.card-conatiner-2 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
-   
-   }
 
-   .card-img
-   {
-        /* height: 200px; */
-        width: 300px;
-        
-   }
-   .game-name
-   {
-        font-size: 20px;
-        color: white;
-        margin-left: 20px;
-   }
-   .horizonatl-line
-   {
-        border: 15px double white;
-        border-radius: 10px;
-   }
-   .conatainer-price
-   {
-        display: flex;
-   }
-   .play-now-btn
-   {
+}
+
+.card-img {
+    /* height: 200px; */
+    width: 300px;
+
+}
+
+.game-name {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.horizonatl-line {
+    border: 15px double white;
+    border-radius: 10px;
+}
+
+.conatainer-price {
+    display: flex;
+}
+
+.play-now-btn {
     border: 2px solid blue;
     padding: 10px 15px 10px 15px;
     /* color: white; */
@@ -173,28 +180,102 @@ body {
     margin-bottom: 20px;
     margin-top: 15px;
     border-radius: 5px;
-   }
-   .pricing
-   {
-        color: white;
-        font-size: 20px;
-        margin-left: 10px;
+}
 
-   }
-   .price-div
-   {
-        margin-top: 15px;
-   }
-   .doller
-   {
-        font-size: 20px;
-        color: aqua;
-        margin-top: 10px;
-        margin-left: 10px;
-   }
-  
-   .play-now-btn:hover
-   {
+.pricing {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.price-div {
+    margin-top: 15px;
+}
+
+.doller {
+    font-size: 20px;
+    color: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.play-now-btn:hover {
     background-color: aqua;
     color: blue;
-   }
+}
+
+ .game-footer-container
+ {
+        background-color: red;
+        height: 100vh;
+ } 
+
+
+ .sidebar .sidebar-content {
+    position: fixed;
+    /* top: 192px; */
+    bottom: 0;
+    right: 0;
+    background-color: #0a112d;
+    height: 91vh;
+    /* height: 460px; */
+    width: 60px;
+    border-radius: 10px 0 0 10px;
+}
+
+.sidebar-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    color: white;
+    font-size: 25px;
+    /* margin: 40px; */
+    margin: 50px 0;
+}
+
+.bar:hover {
+    /* background-color: #f4700b; */
+    color: #f4700b;
+    font-size: 27px;
+    transition: .3s ease-in-out;
+}
+
+.bar i {
+    margin: auto;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a112d;
+    color: white;
+    padding: 20px 80px;
+}
+
+.footer-content {
+    margin: 0 20px;
+}
+
+.footer-content a {
+    margin: 20px 0;
+    color: #F86F03;
+    display: block;
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.footer-para {
+    width: 700px;
+}
+
+.footer-para h4 {
+    font-size: 35px;
+}

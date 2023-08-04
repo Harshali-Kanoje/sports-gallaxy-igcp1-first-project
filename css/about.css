@@ -182,7 +182,9 @@ height: 91vh;
 
 
 
-
+.footer-content a{
+    text-decoration: none;
+}
 
 
 
