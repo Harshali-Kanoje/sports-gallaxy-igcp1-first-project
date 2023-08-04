@@ -156,4 +156,163 @@ h2{
 h1{
   color: rgb(8, 18, 59);  
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        /* background: linear-gradient(to bottom, #acafda 0%,rgba(196, 191, 187, 0.8) 100%) ; */
+    
+            
+       color: white; 
+        
+    }
+    body{
+        background-color: rgb(8, 18, 59);
+    }
+    .history{
+        text-align: center;
+        background-color: rgb(238, 89, 43);
+    padding: 10px;
+    
+    
+    }
+    .criket-history{
+        margin: 10px;
+    }
+    .para-history-1{
+       margin: 6px;
+      text-align: justify;
+     
+    }
+    .history-para-1{
+     font-family: poppins;
+     font-size: 18px;
+     margin: 2px;
+    
+    }
+    .video{
+    height: 300px;
+  width: 300px;
+    border: 0.05px solid rgb(92, 91, 91);
+    border: none;
+    box-shadow: 0 0 8px 0 black;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgb(107, 103, 103);
+  
+    }
+    
+    .video-border{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      width: 300px;
+      height: 200px;
+    }
+    
+    .main-history-container{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        padding: 20px;
+    }
+    
+    
+    .img-of-sunil{
+        height: 230px;
+        width: 300px;
+        
+    }
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+    }
+    .img-football-2002{
+        width: 300px; 
+    }
+    .video-2{
+        height: 300px;  
+    }
+    .video-of-football{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+      
+    }
+    .video-of-football-1{
+     height: 160px;
+     width: 350px;
+    padding: 5px;
+     border: 1px solid blue;
+     border-radius: 10px;
+    margin: 20px;
+    }
+    .video-card-football-1{
+        height: 165px;
+       
+        width: 350px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    
+    }
+    .hockey-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        /* padding: 20px; */
+       align-items: center;
+        
+    }
+    .hockey-img-1{
+        height: 260px;
+        /* margin: 20px; */
+    }
+    .hockey-img-2{
+        height: 300px;
+        width: 330px;
+        margin: 20px;
+    }
+    .hockey-img-container{
+        display: flex;
+        flex-direction: column;
+       margin:  33px ; 
+       /* margin-top: 20px; */
+    }
+    .tennis-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .tennis-container-img-1{
+        height: 200px;
+        width: 330px;
+        margin: 20px;
+    }
+    .tennis-container-img-2{
+        height:200px ;
+        width: 330px;
+        margin: 20px;
+    }
+    .common-padding{
+        padding: 20px;
+       
+    }
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktop
