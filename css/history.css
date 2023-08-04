@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to bottom, #acafda 0%,rgba(196, 191, 187, 0.8) 100%) ; */
+
+        
+   color: white; 
+    
+}
+body{
+    background-color: rgb(8, 18, 59);
+}
+.history{
+    text-align: center;
+    background-color: rgb(238, 89, 43);
+padding: 15px;
+
+
+}
+.criket-history{
+    margin: 10px;
+}
+.para-history-1{
+   margin: 40px;
+  text-align: justify;
+ 
+}
+.history-para-1{
+ font-family: poppins;
+ font-size: 18px;
+ margin: 25px;
+
+}
+.video{
+height: 300px;
+border: 0.05px solid rgb(92, 91, 91);
+border: none;
+box-shadow: 0 0 8px 0 black;
+color: black;
+font-family: sans-serif;
+margin-top: 120px;
+border-radius: 10px;
+box-shadow: 0 0 5px 1px rgb(107, 103, 103);
+}
+
+.video-border{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.main-history-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.img-of-sunil{
+    height: 230px;
+    width: 300px;
+    
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-football-2002{
+    width: 400px; 
+}
+.video-2{
+    height: 400px;  
+}
+.video-of-football{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+  
+}
+.video-of-football-1{
+ height: 160px;
+ width: 250px;
+ padding: 1px;
+ border: 1px solid blue;
+ border-radius: 10px;
+margin: 10px;
+}
+.video-card-football-1{
+    height: 165px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.hockey-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.hockey-img-1{
+    height: 300px;
+    margin: 20px;
+}
+.hockey-img-2{
+    height: 300px;
+    width: 380px;
+    margin: 20px;
+}
+.hockey-img-container{
+    display: flex;
+    flex-direction: column;
+    margin:  33px ;
+   margin-top: 80px;
+}
+.tennis-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tennis-container-img-1{
+    height: 380px;
+    
+}
+.tennis-container-img-2{
+    height:380px ;
+}
+.common-padding{
+    padding: 20px;
+}
+.main-div-of-chess{
+    display: flex;
+ 
+}
+.chess-div-container-main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.chess-img-1{
+ height: 250px;
+ width: 370px;
+ margin: 10px;
+}
+.chess-img-2{
+ width: 370px;
+ height: 250px;
+ margin: 10px;
+}
+h2{
+    color: orange;
+}
+h1{
+  color: rgb(8, 18, 59);  
+}
+
