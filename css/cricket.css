@@ -335,10 +335,24 @@
       
 .header-cricket-heading {
      font-weight: 40px;
-     font-size: 80px;
+     font-size:65px;
      color: black;
      margin-top: 40px;
      margin-bottom: 20px;
      color: orange;
+ }
+
+ .header-heading-1 {
+     font-size: 31px;
+     padding-left: 11px;
+ }
+
+ .cricket-img {
+     display: block;
+     /* background-color: brown; */
+     margin-left: auto;
+     margin-right: auto;
+     height: 599px;
+     margin-top: 45px;
  }
   }
