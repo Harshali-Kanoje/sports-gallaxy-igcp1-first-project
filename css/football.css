@@ -493,6 +493,10 @@ color: #000066;
         padding-top: 40px;
         font-size: 29px;
     }
+    .ec-cards-conatiner-main {
+        background-color: aliceblue;
+        height: 769px;
+    }
 
     .ec-cards-new {
         border: 3px solid #FF9800;
@@ -589,7 +593,7 @@ color: #000066;
     .populer-sports-men-header {
         text-align: center;
         padding: 14px;
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .populer-sportsmen-container {
@@ -703,7 +707,21 @@ color: #000066;
     color: #000066;
     margin-top: 10px;
 }
-  
+.moment-main-container {
+    height: 700px;
+}
+/* footer */
+.footer {
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 10px 10px;
+}
+
+.footer-para {
+    width: 345px;
+}
+
+
 
         
            
