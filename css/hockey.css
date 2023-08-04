@@ -340,7 +340,7 @@ color: #000066;
         color: #1f1919;
         font-size: 16px;
     }
-    ..header-card-btn {
+    .header-card-btn {
         margin-top: 16px;
         background-color: orange;
         padding: 10px 30px;
@@ -372,7 +372,7 @@ color: #000066;
         background-color: #e1e1e9;
         height:1800px;
     }
-    ..populer-sports-men-header {
+    .populer-sports-men-header {
         text-align: center;
         padding: 10px;
         font-size: 20px;
@@ -437,6 +437,71 @@ width: 98%;
     .ground-img{
         width: 100%;
     }
+
+    /* ecomerce-card  */
+    .collection-heading {
+        text-align: center;
+        color: #000066;
+        padding-top: 40px;
+        font-size: 29px;
+    }
+    .ec-cards-conatiner-main {
+        background-color: aliceblue;
+        height: 769px;
+    }
+
+    .ec-cards-new {
+        border: 3px solid #FF9800;
+        height: 411px;
+        width: 261px;
+        margin-top: 37px;
+        border-radius: 5px;
+        box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+        background-color: white;
+    }
+
+       /* moment card  */
+       .moment-header {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 35px;
+        color: #000066;
+        margin-top: 1164px;
+    }
+    .moment-main-container {
+        height: 800px;
+    }
+
+    
+.moment-card {
+    border: 2px solid black;
+    height: 400px;
+    width: 262px;
+    border: 2px solid orange;
+    box-shadow: 0 0 15px 1px rgb(112, 111, 111);
+    /* border-radius: 5px; */
+    margin-top: 19px;
+}
+
+.moment-btn {
+    background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
+    padding: 8px 20px;
+    color: #ffff;
+    border: none;
+    border-radius: 30px;
+}
+
+.footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+    margin-top:600px;
+    
+}
+
+.footer-para {
+    width: 345px;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
@@ -467,7 +532,7 @@ width: 98%;
         background-color:#e1e1e9;
         height:950px;
     }
-    ..populer-sports-men-header {
+    .populer-sports-men-header {
         text-align: center;
         padding: 14px;
         font-size: 25px;
