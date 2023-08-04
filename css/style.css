@@ -31,12 +31,13 @@ a {
     padding: 30px 80px;
 }
 
-.home-back{
+.home-back {
     width: 600px;
 }
+
 .home-back h1 {
     font-size: 80px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 .home-back p {
@@ -96,7 +97,7 @@ a {
     height: 200px;
     border-radius: 5px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    
+
 }
 
 /* category css */
@@ -309,7 +310,7 @@ a {
     bottom: 0;
     right: 0;
     background-color: #0a112d;
-height: 91vh;
+    height: 91vh;
     /* height: 460px; */
     width: 60px;
     border-radius: 10px 0 0 10px;
@@ -324,16 +325,16 @@ height: 91vh;
     font-size: 25px;
     /* margin: 40px; */
     margin: 50px 0;
-
 }
 
-.bar:hover{
+.bar:hover {
     /* background-color: #f4700b; */
     color: #f4700b;
     font-size: 27px;
     transition: .3s ease-in-out;
 }
-.bar i{
+
+.bar i {
     margin: auto;
 }
 
@@ -361,10 +362,11 @@ height: 91vh;
     .home-back {
 
         width: 100%;
-        
+
         /* padding: 40px;
         border-radius: 0 10px 0 10px; */
     }
+
     .home-back h1 {
         font-size: 30px;
         margin: 0;
@@ -516,10 +518,11 @@ height: 91vh;
         justify-content: center;
         padding: 0 30px;
     }
+
     .sidebar-content a {
         font-size: 20px;
         margin: 10px;
-    
+
     }
 }
 
