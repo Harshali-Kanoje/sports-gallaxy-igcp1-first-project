@@ -529,7 +529,8 @@ a {
     /* mobile side bar  */
 
     .sidebar .sidebar-content {
-        top: 673px;
+        /* top: 673px; */
+        bottom: 0;
         height: 60px;
         width: 100%;
     }
