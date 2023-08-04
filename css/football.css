@@ -299,9 +299,7 @@ color: #000066;
 
 }
 
-
-
-   .moment-card{
+.moment-card{
     border:2px solid black;
     height:400px;
     width:350px;
@@ -332,6 +330,39 @@ color: #000066;
     color:#ffff;
     border:none;
     border-radius:30px;
+}
+
+/* footer  */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a112d;
+    color: white;
+    padding: 20px 80px;
+}
+
+.footer-content {
+    margin: 0 20px;
+}
+
+.footer-content a {
+    margin: 20px 0;
+    color: #F86F03;
+    display: block;
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.footer-para {
+    width: 700px;
+}
+
+.footer-para h4 {
+    font-size: 35px;
 }
 
 @media screen and (max-width:600px){
@@ -498,6 +529,17 @@ color: #000066;
     color: #ffff;
     border: none;
     border-radius: 30px;
+}
+
+/* footer css  */
+.footer {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.footer-para {
+    width: 345px;
 }
 
           
