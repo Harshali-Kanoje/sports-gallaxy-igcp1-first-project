@@ -5,12 +5,13 @@ body {
 
 .main-conatiner-page {
     background-color: #000033;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .display-conatiner {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .para-1 {
@@ -29,7 +30,7 @@ body {
     justify-content: space-evenly;
     height: 600px;
     width: 600px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     /* margin-top: 50px; */
 }
 
@@ -40,7 +41,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* margin-top: 30px; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     /* border: 2px solid blue; */
     border-bottom: 5px solid blue;
     border-radius: 10px;
@@ -101,7 +102,7 @@ body {
     justify-content: space-evenly;
     height: 400px;
     width: 600px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     color: white;
 
 }
@@ -122,13 +123,14 @@ body {
 .card-conatiner-1 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .cards {
     border: 3px solid black;
     /* height: 400px; */
     width: 300px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin-bottom: 30px;
     border-radius: 10px;
     background-color: #00004d;
@@ -143,6 +145,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    flex-wrap: wrap;
 
 }
 
@@ -279,3 +282,5 @@ body {
 .footer-para h4 {
     font-size: 35px;
 }
+
+
