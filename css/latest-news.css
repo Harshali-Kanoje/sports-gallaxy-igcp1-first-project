@@ -243,6 +243,7 @@ height: 91vh;
         top: 610px;
         height: 60px;
         width: 100%;
+        border-radius: 0 0 0 0;
     }
 
     .sidebar-content {

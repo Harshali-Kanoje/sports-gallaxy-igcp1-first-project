@@ -341,7 +341,7 @@ color: #000066;
         background-color: #e1e1e9;
         height:1800px;
     }
-    ..populer-sports-men-header {
+    .populer-sports-men-header {
         text-align: center;
         padding: 10px;
         font-size: 20px;
@@ -460,7 +460,7 @@ color: #000066;
         background-color:#e1e1e9;
         height:950px;
     }
-    ..populer-sports-men-header {
+    .populer-sports-men-header {
         text-align: center;
         padding: 14px;
         font-size: 25px;

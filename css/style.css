@@ -27,9 +27,6 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
-    /* display: flex;
-    align-items: center; */
-    /* justify-content: center; */
     position: relative;
     padding: 30px 80px;
 }
@@ -40,14 +37,13 @@ a {
 .home-back h1 {
     font-size: 80px;
     margin-bottom: 20px ;
-    /*  */
 }
 
 .home-back p {
     font-size: 20px;
     margin: 10px 0;
     color: #0a112d;
-    /* text-align: center; */
+    font-weight: bold;
 }
 
 .home-back h2 {
@@ -90,7 +86,6 @@ a {
     background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
     transition: 0.5s ease-in-out;
     margin: 8px;
-    /* border-radius: 0 120px 0 120px; */
 }
 
 .img-holder:hover {
@@ -101,7 +96,7 @@ a {
     height: 200px;
     border-radius: 5px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    /* border-radius: 0 10px 0 10px; */
+    
 }
 
 /* category css */
@@ -259,9 +254,7 @@ a {
 
 .news-para a {
     font-size: 20px;
-    /* background-color: transparent; */
     padding: 10px 30px;
-    /* border: 2px solid #F86F03; */
     color: white;
     background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
     width: 400%;
@@ -513,7 +506,7 @@ height: 91vh;
     }
 
     .sidebar .sidebar-content {
-        top: 610px;
+        top: 673px;
         height: 60px;
         width: 100%;
     }
