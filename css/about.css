@@ -8,56 +8,26 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color:#333;
+    background-color:#35325c;;
     font-family: 'poppins',sans-serif;
     min-height: 100vh;
 }
 .main{
     position: relative;
     width: 300px;
-   height: 190px;
-    background-color: #0a112d;
+   height:350px;
+   border: 3px solid blue;
     transition: 0.5s;
     margin: 50px;
    
 }
-.main:hover{
-  height: 350px;
-
-}
 .main .sub{
     position: absolute;
     inset: 0;
-    background: #000;
+    background: #0a112d;
     overflow: hidden;
 }
-.main .sub::before
-{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    width: 600px;
-    height: 80px;
-    background: linear-gradient(transparent,blue,blue,blue, transparent);
-    animation: animate 14s linear infinite;
-}
-@keyframes animate{
-    0%{
-        transform: translate(-50%,-50%) rotate(0deg);
-    }
-   100%{
-        transform: translate(-50%,-50%) rotate(360deg);
-    }
 
-}
-.main .sub::after{
-    content: '';
-    position: absolute;
-    inset: 3px;
-    background: #292929;
-}
 .main .imgbx{
     position: absolute;
     top: -50px;
@@ -65,45 +35,18 @@ body{
     height: 150px ;
     width: 150px;
     background: #000;
+    border-radius: 50%;
+    border: 3px solid orange;
     transition: 0.5s;
     z-index: 10;
     overflow: hidden;
 }
-.main .imgbx::before{
-   content: '';
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 500px;
-   height: 150px;
-   transform: translate(-50%,-50%);
-   background: linear-gradient(transparent,rgb(255, 115, 0),rgb(255, 115, 0),rgb(255, 115, 0),transparent);
-   animation: animate2 10s linear infinite;
-}
-@keyframes animate2{ 
-    0%{
-        transform: translate(-50%,-50%) rotate(360deg);
-    }
-   100%{
-        transform: translate(-50%,-50%) rotate(0deg);
-    }
 
-}
-.main .imgbx::after{
-    content: '';
-    position: absolute;
-    inset: 3px;
-   background: #292929;
-   
-
-}
 .main .imgbx img{
     position: absolute;
-     padding: 5px;
      margin-bottom: 5px;
-    z-index: 1;
-    height: calc(100% );
-    width: calc(100% );
+   
+     height: 200px;
     filter: grayscale(0.5);
 }
 .main .content{
@@ -113,23 +56,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end ;
-    overflow: hidden;
+   
 }
 .main .content .details{
     padding: 40px;
     text-align: center;
     width: 100%;
-    transition: 0.5s;
-    transform: translateY(220px);
-}
-.main:hover .content .details {
- transform: translateY(0);
 }
 .main .content .details h2{
   font-size: 1.2em;
   font-weight: 600;
   color: #ffffff;
-  line-height: 1.7em;
 }
 main .content .details .about{
   font-size: 1.2em;  
@@ -169,6 +106,116 @@ body h1{
     transform: scale(1.1);
 }
 .about{
-    font-weight: bold;
+    
     color: #fff;
+}
+
+/* side bar */
+
+ /* .sidebar .sidebar-content {
+    position: fixed;
+    top: 192px; 
+    bottom: 0;
+    right: 0;
+    background-color: #0a112d;
+height: 91vh;
+    /* height: 460px; 
+    width: 60px;
+    border-radius: 10px 0 0 10px;
+} 
+.sidebar-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; 
+    color: white;
+    font-size: 25px;
+    /* margin: 40px; 
+    margin: 50px 0;
+
+}
+
+.bar:hover{
+    /* background-color: #f4700b; 
+    color: #f4700b;
+    font-size: 27px;
+    transition: .3s ease-in-out;
+}
+.bar i{
+    margin: auto;
+}
+ */
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a112d;
+    color: white;
+    padding: 20px 80px;
+}
+
+.footer-content {
+    margin: 0 20px;
+}
+
+.footer-content a {
+    margin: 20px 0;
+    color: #F86F03;
+    display: block;
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.footer-para {
+    width: 700px;
+}
+
+.footer-para h4 {
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .sidebar .sidebar-content {
+        top: 673px;
+        height: 60px;
+        width: 100%;
+    }
+
+    .sidebar-content {
+        display: flex;
+        justify-content: center;
+        padding: 0 30px;
+    }
+    .sidebar-content a {
+        font-size: 20px;
+        margin: 10px;
+    
+    }
+
+    /* footer */
+    
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 10px;
+    }
+
+    .footer-para {
+        width: 345px;
+    }
+
 }
