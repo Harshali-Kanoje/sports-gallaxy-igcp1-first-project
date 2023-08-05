@@ -11,10 +11,20 @@ a {
 }
 
 .tagline {
+    display: flex;
+    justify-content: center;
     background: linear-gradient(140deg, #f4700b, rgb(7, 7, 241));
     padding: 15px;
     font-size: 30px;
     color: white;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 20px;
+    position: relative;
+top: 20px;
+height:80px;
 }
 
 .home-img {
@@ -36,7 +46,7 @@ a {
 }
 
 .home-back h1 {
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 
@@ -534,6 +544,14 @@ a {
         height: 60px;
         width: 100%;
     }
+ 
+    .logo{
+        margin-right: 7px;
+        position: relative;
+        top: 9px;
+        height: 32px;
+    }
+    
 }
 
 @media screen and (min-width:601px) and (max-width:992px) {
