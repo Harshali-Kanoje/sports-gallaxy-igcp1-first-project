@@ -121,10 +121,12 @@ body,
 }
 
 .Popular-Games-heading {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     text-align: center;
     color: white;
     font-size: 60px;
+    margin-bottom: 40px;
+    margin-top: 2px;
 }
 
 .card-conatiner-1 {
@@ -160,6 +162,10 @@ body,
     /* height: 200px; */
     width: 300px;
 
+}
+.about-gaming
+{
+    padding: 10px;
 }
 
 .game-name {
@@ -256,7 +262,40 @@ body,
 }
 
 
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a112d;
+    color: white;
+    padding: 20px 80px;
+}
 
+.footer-content {
+    margin: 0 20px;
+}
+
+.footer-content a {
+    margin: 20px 0;
+    color: #F86F03;
+    display: block;
+    font-weight: bold;
+}
+
+.footer-content h4 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.footer-para {
+    width: 700px;
+}
+
+.footer-para h4 {
+    font-size: 35px;
+}
+
+
+/* 
 .footer {
     display: flex;
     justify-content: space-evenly;
@@ -299,7 +338,7 @@ body,
 
 .footer-para {
     width: 345px;
-}
+} */
 
 
 @media screen and (max-width:600px) {
@@ -323,6 +362,56 @@ body,
         height: 365px;
         margin-top: 18px;
     }
-
-   
+    .main-conatiner-page {
+        background-color: #000033;
+        /* height: 100vh; */
+        padding: 11px;
+    }
+    .para-1 {
+        color: white;
+        /* margin-top: 50px; */
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .about-gaming {
+        padding: 10px;
+        margin-bottom: 16px;
+        font-size: 36px;
+    }
+    .tittle-conatiner-gaming {
+        margin-top: -35px;
+    }
+   .para-2 {
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-right: 37px;
+    }
+    .Popular-Games-heading {
+        padding-top: 185pxx;
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        margin-bottom: 58px;
+        margin-top: 82px;
+    }
+    
+.cards {
+    border: 3px solid black;
+    /* height: 400px; */
+    width: 300px;
+    flex-wrap: wrap;
+    margin-bottom: 73px;
+    border-radius: 10px;
+    background-color: #00004d;
+}
+.
+.gaming-2-img {
+    margin-left: -45px;
+}
+.gaming-heading {
+    font-size: 43px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
 }
