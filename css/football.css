@@ -382,7 +382,7 @@ color: #000066;
         color: #1f1919;
         font-size: 16px;
     }
-    ..header-card-btn {
+    .header-card-btn {
         margin-top: 16px;
         background-color: orange;
         padding: 10px 30px;
